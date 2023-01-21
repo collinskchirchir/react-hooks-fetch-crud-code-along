@@ -35,6 +35,42 @@
       "name": "Cookies",
       "category": "Dessert",
       "isInCart": false
+    },
+    {
+      "name": "Abuja",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 7
+    },
+    {
+      "name": "Abuja2",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 8
+    },
+    {
+      "name": "Huawei Home Router",
+      "category": "Dairy",
+      "isInCart": false,
+      "id": 9
+    },
+    {
+      "name": "Abuja3",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 10
+    },
+    {
+      "name": "HeavyMetal",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 11
+    },
+    {
+      "name": "Drummer",
+      "category": "Dessert",
+      "isInCart": false,
+      "id": 12
     }
   ]
 }
