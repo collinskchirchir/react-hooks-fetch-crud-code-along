@@ -22,6 +22,18 @@ function ShoppingList() {
     setItems(updatedItems)
   }
 
+  function handleUpdateItem(updatedItem){
+    // console.log(updatedItem)
+    const updatedItems = items.map((item) => {
+      if(item.id === updatedItem.id){
+        return updatedItem;
+      }
+      else{
+        return item
+      }
+    });
+    setItems(updatedItems)
+  }
   const itemsToDisplay = items.filter((item) => {
     if (selectedCategory === "All") return true;
 
@@ -37,7 +49,7 @@ function ShoppingList() {
       />
       <ul className="Items">
         {itemsToDisplay.map((item) => (
-          <Item key={item.id} item={item} />
+          <Item key={item.id} item={item} onUpdateItem={handleUpdateItem} />
         ))}
       </ul>
     </div>
